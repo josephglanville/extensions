@@ -1,0 +1,10 @@
+version: v1alpha1
+metadata:
+  name: rdma
+  version: "$VERSION"
+  author: Joseph Glanville
+  description: |
+    This system extension provides kernel module drivers for RDMA userspace applications built against a specific Talos version.
+  compatibility:
+    talos:
+      version: ">= v1.8.0"
